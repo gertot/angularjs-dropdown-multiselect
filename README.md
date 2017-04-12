@@ -1,3 +1,7 @@
+This Project is forked from 
+http://github.com/dotansimha/angularjs-dropdown-multiselect
+and has enhanced features.
+
 This directive gives you a Bootstrap Dropdown with the power of AngularJS directives.
 
 # Features
@@ -16,7 +20,7 @@ This directive gives you a Bootstrap Dropdown with the power of AngularJS direct
 - Keyboard controls
 
 ## Demo
-http://dotansimha.github.io/angularjs-dropdown-multiselect/
+http://gertot.github.io/angularjs-dropdown-multiselect/
 
 ## Dependencies
 - required: AngularJS >= 1.5, Bootstrap >= 3.0
@@ -44,4 +48,4 @@ When you create a new PR please make it against the develop branch when adding n
 
 ## Usage and Documentation
 See the documentation and examples in the GitHub pages:
-http://dotansimha.github.io/angularjs-dropdown-multiselect/
+http://gertot.github.io/angularjs-dropdown-multiselect/
