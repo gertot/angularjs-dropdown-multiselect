@@ -485,12 +485,12 @@ $scope.example11data = [
   {id: 4, label: "Nicole", gender: 'F'},
   {id: 5, label: "Danny", gender: 'M'}
 ];
-$scope.example11settings = { 
+$scope.example11settings = {
   groupByTextProvider: function(groupValue) {
     if (groupValue === 'M') {
       return 'Male';
     } else {
-      return 'Female'; 
+      return 'Female';
     }
   },
   groupBy: 'gender',
@@ -618,7 +618,7 @@ $scope.selectByGroupSettings = {
 // HTML
 <div ng-dropdown-multiselect options="example6data" selected-model="example6model" extra-settings="example6settings"></div>
 
-// JavaScript 
+// JavaScript
 $scope.example6data = [
   { id: 1, label: 'David' },
   { id: 2, label: 'Jhon' },
@@ -1124,6 +1124,13 @@ $scope.idPropertySettings = {
 				</td>
 				<td>Boolean</td>
 				<td>Used for disabling the dropdown.</td>
+			</tr>
+			<tr>
+				<td>
+					<strong>is-open</strong>
+				</td>
+				<td>Boolean</td>
+				<td>Flag of open/closed state</td>
 			</tr>
 		</tbody>
 	</table>
