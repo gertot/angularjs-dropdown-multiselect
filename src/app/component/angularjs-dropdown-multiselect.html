@@ -1,6 +1,6 @@
 <div class="multiselect-parent btn-group dropdown-multiselect"
      ng-class="{open: open}">
-     <div ng-transclude="toggleDropdown" ng-click="toggleDropdown()">
+     <div ng-transclude="toggleDropdown" ng-click="disabled || toggleDropdown()">
       <button ng-disabled="disabled"
               type="button"
               class="dropdown-toggle"
