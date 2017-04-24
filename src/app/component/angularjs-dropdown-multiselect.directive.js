@@ -11,6 +11,7 @@ export default function dropdownMultiselectDirective() {
 			searchFilter: '=?',
 			translationTexts: '=',
 			disabled: '=',
+			open: '=?isOpen',
 		},
 		transclude: {
 			toggleDropdown: '?toggleDropdown',
